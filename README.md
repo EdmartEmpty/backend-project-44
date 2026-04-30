@@ -2,3 +2,5 @@
 [![Actions Status](https://github.com/EdmartEmpty/backend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/EdmartEmpty/backend-project-44/actions)
 ### SonarQube 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=EdmartEmpty_backend-project-44&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=EdmartEmpty_backend-project-44)
+
+[![asciicast](https://asciinema.org/a/0VeDT8s3AmI0gty4.svg)](https://asciinema.org/a/0VeDT8s3AmI0gty4)
