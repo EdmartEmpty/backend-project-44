@@ -19,7 +19,7 @@ const getEven = () => {
         console.log(`Question: ${randomNumber}`);
         let answer = readlineSync.question('Your answer: ');
         answer = answer.toLowerCase();
-        console.log(answer);
+        
         if(answer === isEven(randomNumber)){
             console.log('Correct!');
             countAnswer += 1;
