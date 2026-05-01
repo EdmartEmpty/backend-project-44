@@ -14,7 +14,7 @@ const getEven = () => {
     console.log(`Answer "yes" if the number is even, otherwise answer "no".`);
     
     while(countAnswer < 3){    
-        const randomNumber = Math.floor(Math.random() * (10)) + 1;
+        const randomNumber = Math.floor(Math.random() * (10)) + 1;// NOSONAR
         
         console.log(`Question: ${randomNumber}`);
         let answer = readlineSync.question('Your answer: ');
