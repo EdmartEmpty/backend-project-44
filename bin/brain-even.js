@@ -2,6 +2,7 @@
 
 import readlineSync from 'readline-sync';
 import { isEven } from '../src/isEven.js';
+import getRandomInt from '../src/getRandonNumber.js';
 
 const getEven = () => {
 
@@ -13,12 +14,12 @@ const getEven = () => {
     console.log(`Answer "yes" if the number is even, otherwise answer "no".`);
     
     while(countAnswer < 3){    
-        let randomNumber = ((Math.random() * 10) + 1).toFixed();
-
+        let randomNumber = getRandomInt(1, 10);
+        
         console.log(`Question: ${randomNumber}`);
         let answer = readlineSync.question('Your answer: ');
         answer = answer.toLowerCase();
-
+        console.log(answer);
         if(answer === isEven(randomNumber)){
             console.log('Correct!');
             countAnswer += 1;
