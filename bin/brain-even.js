@@ -2,7 +2,7 @@
 
 import readlineSync from 'readline-sync';
 import { isEven } from '../src/isEven.js';
-import getRandomInt from '../src/getRandonNumber.js';
+
 
 const getEven = () => {
 
@@ -14,7 +14,7 @@ const getEven = () => {
     console.log(`Answer "yes" if the number is even, otherwise answer "no".`);
     
     while(countAnswer < 3){    
-        let randomNumber = getRandomInt(1, 10);
+        const randomNumber = Math.floor(Math.random() * (10)) + 1;
         
         console.log(`Question: ${randomNumber}`);
         let answer = readlineSync.question('Your answer: ');
