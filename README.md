@@ -14,3 +14,7 @@
 > Демонстрация игры **Наибольший общий знаменатель**
 
 [![asciicast](https://asciinema.org/a/8yJzrr6wv4Ny5FfM.svg)](https://asciinema.org/a/8yJzrr6wv4Ny5FfM)
+
+> Демонстрация игры **Прогрессия**
+
+[![asciicast](https://asciinema.org/a/cc9LG6cvdn3OFcs6.svg)](https://asciinema.org/a/cc9LG6cvdn3OFcs6)

@@ -13,7 +13,7 @@ const startGame = (game) => {
     console.log(rusle);
 
     while (countAnswer < 3) {
-        const {questionGame, answerGame} = game()
+        const { questionGame, answerGame } = game()
 
         console.log(`Question: ${questionGame}`);
         let answer = readlineSync.question('Your answer: ');
