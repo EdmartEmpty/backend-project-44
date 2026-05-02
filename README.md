@@ -10,3 +10,7 @@
 > Демонстрация игры **Калькулятор**. 
 
 [![asciicast](https://asciinema.org/a/CcqQTFzAzlgpgeQp.svg)](https://asciinema.org/a/CcqQTFzAzlgpgeQp)
+
+> Демонстрация игры **Наибольший общий знаменатель**
+
+[![asciicast](https://asciinema.org/a/8yJzrr6wv4Ny5FfM.svg)](https://asciinema.org/a/8yJzrr6wv4Ny5FfM)

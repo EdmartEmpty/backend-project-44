@@ -1,10 +1,10 @@
-import getRandomInt from "../gerRandomNumber.js";
+import getRandomInt from "../helpers/gerRandomNumber.js";
 
 const calc = () => {
     const rusle = (`What is the result of the expression?`);
 
     const arrSing = ['+', '-', '*'];
-    const randomSing = arrSing[getRandomInt(0, 2)];
+    const randomSing = arrSing[getRandomInt(0, arrSing.length - 1)];
     const fisrtNumber = getRandomInt(1, 10);
     const secondNumber = getRandomInt(1, 10);
     let questionGame = '';
