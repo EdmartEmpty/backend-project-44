@@ -3,4 +3,10 @@
 ### SonarQube 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=EdmartEmpty_backend-project-44&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=EdmartEmpty_backend-project-44)
 
+ > Пример установки и демонстрация первой игры **Четность**.
+
 [![asciicast](https://asciinema.org/a/0VeDT8s3AmI0gty4.svg)](https://asciinema.org/a/0VeDT8s3AmI0gty4)
+
+> Демонстрация игры **Калькулятор**. 
+
+[![asciicast](https://asciinema.org/a/CcqQTFzAzlgpgeQp.svg)](https://asciinema.org/a/CcqQTFzAzlgpgeQp)
