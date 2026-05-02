@@ -18,3 +18,7 @@
 > Демонстрация игры **Прогрессия**
 
 [![asciicast](https://asciinema.org/a/cc9LG6cvdn3OFcs6.svg)](https://asciinema.org/a/cc9LG6cvdn3OFcs6)
+
+> Демнострация веселой игры в **Простое число**
+
+[![asciicast](https://asciinema.org/a/06XSiVrstduo7NLK.svg)](https://asciinema.org/a/06XSiVrstduo7NLK)
