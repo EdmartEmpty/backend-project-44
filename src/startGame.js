@@ -9,7 +9,7 @@ const startGame = (game) => {
 
     console.log('Welcome to the Brain Games!')
     let userName = readlineSync.question('May I have your name? ');
-    console.log(`Hello ${userName}!`)
+    console.log(`Hello, ${userName}!`)
     console.log(rusle);
 
     while (countAnswer < 3) {
