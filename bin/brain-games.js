@@ -2,4 +2,4 @@
 
 import { getWellcome } from './cli.js'
 
-getWellcome();
+getWellcome()
