@@ -1,26 +1,26 @@
 import getRandomInt from '../helpers/gerRandomNumber.js'
 
-const calc = () => {
-  const rusle = (`What is the result of the expression?`)
+const rules = (`What is the result of the expression?`)
 
-  const arrSing = ['+', '-', '*']
-  const randomSing = arrSing[getRandomInt(0, arrSing.length - 1)]
+const calc = () => {
+  const arrSign = ['+', '-', '*']
+  const randomSign = arrSign[getRandomInt(0, arrSign.length - 1)]
   const fisrtNumber = getRandomInt(1, 10)
   const secondNumber = getRandomInt(1, 10)
   let questionGame = ''
   let answerGame = ''
 
-  switch (randomSing) {
+  switch (randomSign) {
     case '+':
-      questionGame = `${fisrtNumber} ${randomSing} ${secondNumber}`
+      questionGame = `${fisrtNumber} ${randomSign} ${secondNumber}`
       answerGame = `${fisrtNumber + secondNumber}`
       break
     case '-':
-      questionGame = `${fisrtNumber} ${randomSing} ${secondNumber}`
+      questionGame = `${fisrtNumber} ${randomSign} ${secondNumber}`
       answerGame = `${fisrtNumber - secondNumber}`
       break
     case '*':
-      questionGame = `${fisrtNumber} ${randomSing} ${secondNumber}`
+      questionGame = `${fisrtNumber} ${randomSign} ${secondNumber}`
       answerGame = `${fisrtNumber * secondNumber}`
       break
     default:
@@ -28,7 +28,7 @@ const calc = () => {
       break
   }
 
-  return { rusle, questionGame, answerGame }
+  return { questionGame, answerGame }
 }
 
-export { calc }
+export { calc, rules }

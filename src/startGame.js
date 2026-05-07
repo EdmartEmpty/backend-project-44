@@ -1,14 +1,12 @@
 import readlineSync from 'readline-sync'
 
-const startGame = (game) => {
+const startGame = (game, rules) => {
   let countAnswer = 0
 
-  const { rusle } = game()
-
   console.log('Welcome to the Brain Games!')
-  let userName = readlineSync.question('May I have your name? ')
+  const userName = readlineSync.question('May I have your name? ')
   console.log(`Hello, ${userName}!`)
-  console.log(rusle)
+  console.log(rules)
 
   while (countAnswer < 3) {
     const { questionGame, answerGame } = game()
