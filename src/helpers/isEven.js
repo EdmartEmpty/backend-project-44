@@ -1,5 +1,5 @@
 const isEven = (n) => {
-  return n % 2 === 0 ? 'yes' : 'no'
+  return n % 2 === 0 ? true : false
 }
 
 export { isEven }

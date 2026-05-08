@@ -5,7 +5,7 @@ const rules = (`Answer "yes" if the number is even, otherwise answer "no".`)
 
 const even = () => {
   const questionGame = getRandomInt(1, 10)
-  const answerGame = isEven(questionGame)
+  const answerGame = isEven(questionGame) ? 'yes' : 'no'
 
   return { questionGame, answerGame }
 }

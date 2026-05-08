@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { getWellcome } from './cli.js'
+import { getWellcome } from '../src/helpers/cli.js'
 
 getWellcome()

@@ -1,4 +1,3 @@
-// import { nod } from '../helpers/nod.js'
 import getRandomInt from '../helpers/gerRandomNumber.js'
 
 const nod = (a, b) => {
@@ -20,7 +19,6 @@ const gcd = () => {
 
   const questionGame = `${firstNumber} ${secondNumber}`
   const answerGame = `${nod(firstNumber, secondNumber)}`
-
   return { questionGame, answerGame }
 }
 
