@@ -1,15 +1,5 @@
 import getRandomInt from '../helpers/gerRandomNumber.js'
-
-const nod = (a, b) => {
-  if (b === 0) {
-    throw new Error('На ноль делить нельзя')
-  }
-  else if ((a % b) === 0) {
-    return b
-  }
-
-  return nod(b, a % b)
-}
+import { nod } from '../helpers/nod.js'
 
 const rules = (`Find the greatest common divisor of given numbers.`)
 
